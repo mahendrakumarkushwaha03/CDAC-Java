@@ -1,0 +1,218 @@
+#Question 1
+package Jackie;
+import java.util.Scanner;
+
+public class Cheeta {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		double length = sc.nextInt();
+		int width = sc.nextInt();
+		System.out.println("Area is :" + length*width);
+	}
+
+}
+
+
+#Question 2
+
+package Jackie;
+
+import java.util.Scanner;
+
+public class Cheeta2 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter a number :");
+		double cel = sc.nextDouble();
+		
+		double fas = ((cel *9/5)+32);
+		
+		System.out.println("Temperature in Fahranite is :" + fas);
+		sc.close();
+
+	}
+
+}
+
+#Question 3
+package Jackie;
+import java.util.Scanner;
+
+public class cheeta3 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter sub1 :"
+				);
+		int sub1 = sc.nextInt();
+		System.out.println("Enter sub2 :");
+		int sub2 = sc.nextInt();
+		System.out.println("Enter sub3 :");
+		int sub3 = sc.nextInt();
+		int sum = (sub1 + sub2 +sub3);
+		int avg = ((sub1 + sub2 +sub3)/3);
+		System.out.println("total marks is:" + sum);
+		System.out.println("avg marks is:" + avg + " Sum is :"+sum);
+	}
+
+}
+
+#Question 4
+package Jackie;
+import java.util.Scanner;
+
+public class cheeta4 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter num1 : ");
+		int num1 = sc.nextInt();
+		System.out.println("Enter num2 : ");
+		int num2 = sc.nextInt();
+		num1 = num1+num2;
+		num2 = num1-num2;
+		num1 = num1-num2;
+		System.out.println("Number num1 after swapping : " +num1);
+		System.out.println("Number num2 after swapping : " +num2);
+	}
+
+}
+
+
+#Question 5
+package Jackie;
+import java.util.Scanner;
+
+public class cheeta5 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter Product Price : ");
+		double price = sc.nextDouble();
+		System.out.println("Enter Discount %: ");
+		double dis = sc.nextDouble();
+		double cal = price * dis;
+		System.out.println("Final Price is :" + cal);
+	}
+
+}
+
+
+#Question 6
+package Jackie;
+import java.util.Scanner;
+public class cheeta6 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the marks : ");
+		int marks = sc.nextInt();
+		if (marks>=40) {
+			System.out.println("pass");
+		}else
+		{
+			System.out.println("fail");
+		}
+	}
+}
+
+
+#Question 7
+
+package Jackie;
+import java.util.Scanner;
+public class Cheeta7 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter a number: ");
+		int num = sc.nextInt();
+		if (num%2==0) {
+			System.out.println("It is Even..!!");
+		}
+		else {
+			System.out.println("It is Odd..!!");
+		}
+	}
+
+}
+
+#Question 8
+package Jackie;
+import java.util.Scanner;
+
+public class Cheeta8 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter a number 1: ");
+		int num1 = sc.nextInt();
+		System.out.println("Enter a number 2: ");
+		int num2 = sc.nextInt();
+		if(num1>num2) {
+			System.out.println("Number 1 is greater");
+		}
+		else {
+			System.out.println("Number 2 is greater");
+		}
+	}
+
+}
+
+
+#Question 9
+
+package Jackie;
+import java.util.Scanner;
+
+public class Cheeta9 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter Principal: ");
+		double principal = sc.nextDouble();
+		System.out.println("Enter Rate: ");
+		double Rate = sc.nextDouble();
+		System.out.println("Enter Time: ");
+		double Time = sc.nextDouble();
+		
+		double Simple = principal*Rate*Time;
+		System.out.println("Simple Intrest is :" + Simple);
+		
+		if (Rate >9) {
+			System.out.println("It is High in Value..!!");
+		}
+		else {
+			System.out.println("It is Low in Value..!!");
+
+		}
+	}
+	
+}
+
+#Question 10
+package Jackie;
+import java.util.Scanner;
+
+public class Cheeta10 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter a age: ");
+		double age = sc.nextDouble();
+		if(age<18) {
+			System.out.println("child");
+		
+		}else if(age>=18 && age<=21) {
+			System.out.println("Teenager");
+		}
+		else {
+			System.out.println("Adult");
+		}
+
+	}
+
+}
+
+
+
