@@ -174,7 +174,7 @@ public class Cheeta9 {
 		System.out.println("Enter Rate: ");
 		double Rate = sc.nextDouble();
 		System.out.println("Enter Time: ");
-		double Time = sc.nextDouble();
+		int Time = sc.nextInt();
 		
 		double Simple = principal*Rate*Time;
 		System.out.println("Simple Intrest is :" + Simple);
